@@ -1,0 +1,110 @@
+/* css/style.css */
+body {
+    margin: 0;
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-accent {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.full-height-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #e3f2fd, #fff);
+}
+
+.content-section {
+    padding: 60px 0;
+}
+
+.light-bg {
+    background-color: #f0f0f0;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.project-card-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 300px;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-links a {
+    color: #fff;
+    margin-left: 10px;
+}
